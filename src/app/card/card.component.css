@@ -1,0 +1,26 @@
+.card{
+    max-width: 350px;
+    background-color: #fd7557;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card__item{
+ padding: 18px;
+}
+
+.card__price{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.card__button{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 25px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
