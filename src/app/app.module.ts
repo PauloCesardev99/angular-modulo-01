@@ -3,20 +3,18 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CardComponent } from './card/card.component';
-import { CardRoxoComponent } from './card-roxo/card-roxo.component';
+import { CardsModule } from './cards/cards.module';
 
 @NgModule({
   //Aqui é onde os componentes estão declarados
   declarations: [
     AppComponent,
-    CardComponent,
-    CardRoxoComponent,
   ],
   //aqui estão os modulos importados
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CardsModule,
   ],
   providers: [
     provideClientHydration(withEventReplay())

@@ -1,0 +1,13 @@
+@import "../../styles/variables.css";
+
+.card-cancel-button{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: var(--bg-color);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 18px;   
+}
+
